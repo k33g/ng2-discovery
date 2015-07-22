@@ -1,0 +1,31 @@
+{
+  "name": "ng2-discovery",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp play"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k33g/ng2-discovery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k33g/ng2-discovery/issues"
+  },
+  "homepage": "https://github.com/k33g/ng2-discovery",
+  "devDependencies": {
+    "del": "~1.1.1",
+    "gulp": "~3.8.10",
+    "gulp-plumber": "^1.0.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-size": "^1.2.1",
+    "gulp-traceur": "0.17.*",
+    "systemjs-builder": "0.12.2",
+    "through2": "~0.6.3"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.31",
+    "reflect-metadata": "^0.1.0",
+    "systemjs": "0.18.4"
+  }
+}

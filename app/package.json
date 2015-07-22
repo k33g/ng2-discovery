@@ -1,0 +1,15 @@
+{
+  "name": "ng2-discovery-app-server",
+  "version": "0.0.0",
+  "description": "samples of services",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@k33g_org",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3"
+  }
+}
