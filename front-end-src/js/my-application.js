@@ -1,9 +1,14 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
-import {BigTitle} from 'js/components/big-title'
-import {MyContent} from 'js/components/my-content'
+import {BigTitle} from 'js/components/big-title';
+import {MyContent} from 'js/components/my-content';
+
+import { Inject } from 'angular2/di';
+import { InformationsService } from 'js/services/InformationsService';
 
 @Component({
   selector: 'my-application'
+  //appInjector: [InformationsService]
+
 })
 @View({
   template: `
@@ -18,9 +23,12 @@ import {MyContent} from 'js/components/my-content'
 })
 
 export class MyApplication {
-  constructor() {
-    console.log("Hello!. I'm the constructor of the application.")
+  constructor(@Inject(InformationsService) informationsService) {
+    console.log("Hello!. I'm the constructor of the application.");
+    console.log("version", informationsService.getVersion());
+    console.log("applicationName", informationsService.getApplicationName())
   }
 }
 
-bootstrap(MyApplication);
+bootstrap(MyApplication, [InformationsService]);
+//bootstrap(MyApplication);
