@@ -3,6 +3,12 @@
 NG2-Discovery is a "walking skeleton" project build to discover Angular2.* with ES2015.
 is completely inspired by [https://github.com/pkozlowski-opensource/ng2-play](https://github.com/pkozlowski-opensource/ng2-play)
 
+##Remarks
+
+- initial version is here : [https://github.com/k33g/ng2-discovery/tree/00-Ignition](https://github.com/k33g/ng2-discovery/tree/00-Ignition)
+- version with first components is here : [https://github.com/k33g/ng2-discovery/tree/01-Components](https://github.com/k33g/ng2-discovery/tree/01-Components)
+- this version shows how to inject services
+
 ## Install
 
 - Clone this repo
